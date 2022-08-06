@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20pt"
+    android:background="#CFCFCF">
+
+    <EditText
+        android:padding="5pt"
+        android:background="#fff"
+    android:id="@+id/tvFirstName"
+    android:hint="First Name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+        android:padding="5pt"
+        android:background="#fff"
+        android:layout_marginTop="5pt"
+        android:id="@+id/tvLastName"
+        android:hint="Last Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:padding="5pt"
+        android:background="#fff"
+        android:inputType="phone"
+        android:layout_marginTop="5pt"
+        android:id="@+id/tvContactNumber"
+        android:hint="Contact Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:padding="5pt"
+        android:background="#fff"
+        android:inputType="number"
+        android:layout_marginTop="5pt"
+        android:id="@+id/tvAmountPaid"
+        android:hint="Amount Paid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_marginTop="10pt"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
